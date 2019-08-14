@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text, Animated, Easing, Dimensions } from 'react-native';
+import { 
+    View, 
+    Animated, 
+    Easing, 
+    Dimensions 
+} from 'react-native';
 const { width, height } = Dimensions.get('screen')
 
 export default class AnimatedTiming extends Component {
