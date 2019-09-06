@@ -60,7 +60,7 @@ export default class AnimatedSpring extends Component {
                 </Animated.View> 
                 :
                 <TouchableOpacity onPress={this.animBtn.bind(this)}> 
-                        <Text style={styles.btn}>Login</Text>
+                    <Text style={styles.btn}>Login</Text>
                 </TouchableOpacity>
             }
         </View>
